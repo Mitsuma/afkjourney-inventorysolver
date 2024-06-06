@@ -1,4 +1,4 @@
-# afkjourney-invtorysolver
+# afkjourney-inventorysolver
 Small python program to solve the AFK Journey Inventory Sort minigame
 
 # Requirements
