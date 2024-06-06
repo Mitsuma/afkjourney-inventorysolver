@@ -2,7 +2,7 @@
 Small python program to solve the AFK Journey Inventory Sort minigame
 
 # Requirements
-- python
+- python3
 - numpy (pip install numpy)
 
 # Installation
@@ -28,5 +28,6 @@ Empty boxes will be ignored, shapes can be drawn whereever in the box.
 
 
 # Info
-Made with ChatGPT. I claim no ownership over the code. 
-Use it as is, modify it, whatever you like
+Made with ChatGPT. I claim no ownership over the code.  
+Use it as is, modify it, whatever you like.  
+Only tested on Windows10.
