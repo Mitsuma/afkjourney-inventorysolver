@@ -15,15 +15,15 @@ Empty boxes will be ignored, shapes can be drawn whereever in the box.
 
 # Screenshots
 - Board setup  
-![chrome_wwCXaAsDWw](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/586a817a-8a1a-4f79-a5d7-6a1d5d9c9d0e)
+![chrome_1xTV9mgVHN](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/b8baaaff-bbec-4a21-8f33-dba01ee8d332)
 
 
-- Shape setup  
-![chrome_qlwimqUM7L](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/cdb2dd64-734f-4c6c-9e93-44b4a4c2c9dd)
+- Shape setup
+![chrome_a0NlFFlAgK](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/bbe0f4b0-4a8a-4546-802b-7323d2b3f95e)
 
 
 - Solution window  
-![chrome_7oUmZeak9E](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/1b7b0693-80e4-47f6-b0a0-3c70ad25db58)
+![chrome_auAjajGHSw](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/18140469-e2f3-4e40-8c5e-0e2d0b1664f5)
 
 
 
