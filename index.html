@@ -22,13 +22,13 @@
         }
         .shapes-grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
             gap: 20px;
         }
         .shape-container {
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin-bottom: 20px;
         }
         .credits {
             margin-top: 20px;
@@ -43,6 +43,16 @@
         .credits a:hover {
             text-decoration: underline;
         }
+        @media (min-width: 768px) {
+            .shapes-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 992px) {
+            .shapes-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
     </style>
 </head>
 <body class="bg-light">
@@ -52,6 +62,7 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <h2 class="card-title">Define Board</h2>
+                        <p class="card-subtitle mb-3">Select the board layout:</p>
                         <div class="d-flex justify-content-center">
                             <div id="board" class="grid" style="grid-template-columns: repeat(7, 30px);"></div>
                         </div>
@@ -70,7 +81,8 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <h2 class="card-title">Define Shapes</h2>
-                        <div class="shapes-grid mx-auto" id="shapes"></div>
+                        <p class="card-subtitle mb-3">Set the used shapes:</p>
+                        <div class="shapes-grid" id="shapes"></div>
                         <div class="text-center mt-3">
                             <button class="btn btn-success" onclick="submitShapes()">Submit Shapes</button>
                         </div>
@@ -86,6 +98,7 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <h2 class="card-title">Inventory Grid</h2>
+                        <p class="card-subtitle mb-3">Solution:</p>
                         <div class="d-flex justify-content-center">
                             <div id="result" class="grid" style="grid-template-columns: repeat(7, 30px);"></div>
                         </div>
