@@ -1,30 +1,30 @@
 # afkjourney-inventorysolver
-Small python program to solve the AFK Journey Inventory Sort minigame
+Small application to solve the AFK Journey's Inventory Sort minigame
 
 # Requirements
-- python3
-- numpy (pip install numpy)
-
-# Installation
-1. Download the python file.
-2. run it (e.g. via cmd "python solver.py")
+- up to date browser
+- JavaScript enabled
 
 # Usage
-1. Select your board pattern, unselect (white squares) squares to deactivate them.
-2. Set your shapes, simply click the shape form in the boxes.
+1. Open https://mitsuma.github.io/afkjourney-inventorysolver/
+2. Set your Board Layout.
+3. Set your shapes, simply click (or click and drag) the shape form in the boxes.
 Empty boxes will be ignored, shapes can be drawn whereever in the box.
-3. Hit submit and wait a little.
-4. Solution Window should pop up and show the solution.
+4. Hit submit and wait a little.
+5. Solution Window should pop up and show the solution.
 
 # Screenshots
 - Board setup  
-![python3 10_2Ln2BYfoNZ](https://github.com/Mitsuma/afkjourney-invtorysolver/assets/8568089/f7cc138a-3a04-4cd1-8119-855f7fed9210)
+![chrome_wwCXaAsDWw](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/586a817a-8a1a-4f79-a5d7-6a1d5d9c9d0e)
+
 
 - Shape setup  
-![python3 10_xSrpZKOvLK](https://github.com/Mitsuma/afkjourney-invtorysolver/assets/8568089/846daaf6-185c-49b2-b429-7b39e955b143)
+![chrome_qlwimqUM7L](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/cdb2dd64-734f-4c6c-9e93-44b4a4c2c9dd)
+
 
 - Solution window  
-![python3 10_yx4qNgMZrZ](https://github.com/Mitsuma/afkjourney-invtorysolver/assets/8568089/8bfc1872-dcf2-4ac6-aea9-cca083863c09)
+![chrome_7oUmZeak9E](https://github.com/Mitsuma/afkjourney-inventorysolver/assets/8568089/1b7b0693-80e4-47f6-b0a0-3c70ad25db58)
+
 
 
 # Info
