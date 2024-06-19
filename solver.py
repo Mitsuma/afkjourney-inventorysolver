@@ -42,22 +42,17 @@ class ShapeInput:
 class BoardInput:
     def __init__(self, master):
         self.master = master
-        self.board = np.zeros((7, 7), dtype=int)
-        self.buttons = [[None for _ in range(7)] for _ in range(7)]
+        self.board = np.ones((6, 6), dtype=int)
+        self.buttons = [[None for _ in range(6)] for _ in range(6)]
         self.frame = tk.Frame(master)
-        self.frame.grid(row=0, column=0, columnspan=7)
-        tk.Label(self.frame, text="Define Board").grid(row=0, columnspan=7)
-        for i in range(7):
-            for j in range(7):
+        self.frame.grid(row=0, column=0, columnspan=6)
+        tk.Label(self.frame, text="Define Board").grid(row=0, columnspan=6)
+        for i in range(6):
+            for j in range(6):
                 btn = tk.Button(self.frame, width=2, height=1, command=lambda i=i, j=j: self.toggle_cell(i, j))
                 btn.grid(row=i+1, column=j)
                 self.buttons[i][j] = btn
-                if 1 <= i < 6 and 1 <= j < 6:  # Pre-select inner 5x5 cells
-                    self.board[i, j] = 1
-                    self.buttons[i][j].configure(bg='black')
-                else:
-                    self.board[i][j] = 0
-                    self.buttons[i][j].configure(bg='white')
+                self.buttons[i][j].configure(bg='black')
 
     def toggle_cell(self, i, j):
         if self.board[i, j] == 0:
@@ -110,7 +105,7 @@ def submit_board():
         board_window.destroy()
         open_shape_window(board)
     else:
-        tk.Label(board_window, text="Please define a valid board", fg='red').grid(row=8, column=0, columnspan=4)
+        tk.Label(board_window, text="Please define a valid board", fg='red').grid(row=7, column=0, columnspan=4)
 
 def main(shapes, board):
     color_map = generate_color_map(len(shapes))
@@ -203,5 +198,5 @@ if __name__ == "__main__":
     board_window.title("Define Board")
     board_input = BoardInput(board_window)
     submit_board_button = tk.Button(board_window, text="Submit Board", command=submit_board)
-    submit_board_button.grid(row=8, column=0, columnspan=7, pady=10)
+    submit_board_button.grid(row=7, column=0, columnspan=6, pady=10)
     board_window.mainloop()
