@@ -1,6 +1,8 @@
 # afkjourney-inventorysolver
 Small application to solve the AFK Journey's Inventory Sort minigame
 
+Sometimes the web version can't solve one, try the python file. (requires numpy)
+
 # Requirements
 - up to date browser
 - JavaScript enabled
